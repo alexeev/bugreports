@@ -1,10 +1,10 @@
-## TestngParamIssue surefire log
+## TestngParamIssue1 surefire log
 
 ```
 -------------------------------------------------------
  T E S T S
 -------------------------------------------------------
-Running lu.crx.proto.arq.TestngParamIssue
+Running lu.crx.proto.arq.TestngParamIssue1
 ###### in failOneTime / 1
 ###### in failOneTime / 2
 ###### in failOneTime / 3
@@ -14,40 +14,40 @@ Running lu.crx.proto.arq.TestngParamIssue
 ###### in failOneTime / 1
 ###### in failOneTime / 2
 ###### in failOneTime / 3
-Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 6.948 sec <<< FAILURE! - in lu.crx.proto.arq.TestngParamIssue
-failOneTime(lu.crx.proto.arq.TestngParamIssue)  Time elapsed: 0.219 sec  <<< FAILURE!
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 6.948 sec <<< FAILURE! - in lu.crx.proto.arq.TestngParamIssue1
+failOneTime(lu.crx.proto.arq.TestngParamIssue1)  Time elapsed: 0.219 sec  <<< FAILURE!
 java.lang.AssertionError: 
 
 Expected: not <1>
      but: was <1>
-	at lu.crx.proto.arq.TestngParamIssue.failOneTime(TestngParamIssue.java:37)
+	at lu.crx.proto.arq.TestngParamIssue1.failOneTime(TestngParamIssue1.java:37)
 
-failOneTime(lu.crx.proto.arq.TestngParamIssue)  Time elapsed: 0.04 sec  <<< FAILURE!
+failOneTime(lu.crx.proto.arq.TestngParamIssue1)  Time elapsed: 0.04 sec  <<< FAILURE!
 java.lang.AssertionError: 
 
 Expected: not <1>
      but: was <1>
-	at lu.crx.proto.arq.TestngParamIssue.failOneTime(TestngParamIssue.java:37)
+	at lu.crx.proto.arq.TestngParamIssue1.failOneTime(TestngParamIssue1.java:37)
 
-failOneTime(lu.crx.proto.arq.TestngParamIssue)  Time elapsed: 0.028 sec  <<< FAILURE!
+failOneTime(lu.crx.proto.arq.TestngParamIssue1)  Time elapsed: 0.028 sec  <<< FAILURE!
 java.lang.AssertionError: 
 
 Expected: not <1>
      but: was <1>
-	at lu.crx.proto.arq.TestngParamIssue.failOneTime(TestngParamIssue.java:37)
+	at lu.crx.proto.arq.TestngParamIssue1.failOneTime(TestngParamIssue1.java:37)
 
 
 Results :
 
 Failed tests: 
-lu.crx.proto.arq.TestngParamIssue.failOneTime(lu.crx.proto.arq.TestngParamIssue)
-  Run 1: TestngParamIssue>Arquillian.run:164->failOneTime:37 
+lu.crx.proto.arq.TestngParamIssue1.failOneTime(lu.crx.proto.arq.TestngParamIssue1)
+  Run 1: TestngParamIssue1>Arquillian.run:164->failOneTime:37 
 Expected: not <1>
      but: was <1>
-  Run 2: TestngParamIssue>Arquillian.run:164->failOneTime:37 
+  Run 2: TestngParamIssue1>Arquillian.run:164->failOneTime:37 
 Expected: not <1>
      but: was <1>
-  Run 3: TestngParamIssue>Arquillian.run:164->failOneTime:37 
+  Run 3: TestngParamIssue1>Arquillian.run:164->failOneTime:37 
 Expected: not <1>
      but: was <1>
 

@@ -1,4 +1,4 @@
-## TestngParamIssue surfire log
+## TestngParamIssue surefire log
 
 ```
 -------------------------------------------------------
@@ -59,7 +59,7 @@ BUILD FAILURE
 ------------------------------------------------------------------------
 ```
 
-## TestngParamIssue2 surfire log
+## TestngParamIssue2 surefire log
 
 ```
 -------------------------------------------------------

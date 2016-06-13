@@ -15,7 +15,7 @@ import org.jboss.shrinkwrap.resolver.api.maven.Maven;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class TestngParamIssue extends Arquillian {
+public class TestngParamIssue1 extends Arquillian {
 
     @Deployment
     public static Archive createArchive() {
